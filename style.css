@@ -4,27 +4,48 @@ body{
 *{
     margin: 0px;
 }
+
+}
+.catalog-menu a:hover{
+    color:darkorange;
+}
+
+.catalog-menu a:active{
+    color: goldenrod
+}
+
+.catalog-menu a{
+    color: #3f2916;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.2rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
 .text{
     color: #3f2916;
     font-family: 'Roboto',Arial,sans-serif;
     font-size: 0.833rem;
     line-height: 1.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
     text-decoration: none;
+    margin-left: 10px;
 }
 .title{
     text-align: center;
     color: #3f2916;
     font-family: 'Roboto',Arial,sans-serif;
     line-height: 1.25;
-    margin-bottom: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
-.menu {
+.header {
     background-color: #3f2916;
-    
-    list-style-type: none;
 }
-.text_menu{
+
+.header a{
     color: #d6c0ab;
     font-family: 'Roboto',Arial,sans-serif;
     font-size: 0.833rem;
@@ -32,12 +53,108 @@ body{
     margin-bottom: 1rem;
     font-weight: 1000;
     text-decoration: none;
+    margin-left: 10px;
+        
 }
-.down{
+
+.header a:hover{
+    color:darkorange;
+}
+
+.header a:active{
+    color: goldenrod
+}
+
+.header img{
+    margin-left: 10px;
+}
+
+
+.text input{
+    color: #3f2916;
+    background-color: floralwhite; 
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 0.833rem;
+    line-height: 1.2rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+
+.text textarea{
+    color: #3f2916;
+    background-color: floralwhite; 
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 0.833rem;
+    line-height: 1.2rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.text button{
+    color: #3f2916; 
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 0.833rem;
+    line-height: 1.2rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.item-menu{
     color: #3f2916;
     font-family: 'Roboto',Arial,sans-serif;
     font-size: 0.833rem;
     line-height: 1.2rem;
-    margin-bottom: 1rem;
+    margin: 20px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.item-menu h1{
+    text-align: center;
+    margin: 10px
+}
+
+.item-menu h3{
+    margin: 10px;
+}
+
+.table tr:nth-child(1){
+    height: 50px;
+}
+
+.table tr:nth-child(2){
+    height: 100px
+}
+
+.table{
+    border: 2px solid #3f2916;
+    width: 700px;
+    border-collapse: collapse;
+}
+
+.item-menu a img:hover{
+    outline: 1px solid #3f2916
+}
+
+.table td{
+    border: 2px solid #3f2916;
+    padding-left: 10px;
+    text-align: center;
+}
+
+
+
+.footer{
+    color: #3f2916;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 0.833rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 

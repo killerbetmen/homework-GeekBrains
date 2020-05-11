@@ -5,24 +5,9 @@ body{
     margin: 0px;
 }
 
-}
-.catalog-menu a:hover{
-    color:darkorange;
-}
-
-.catalog-menu a:active{
-    color: goldenrod
-}
-
 .catalog-menu a{
-    color: #3f2916;
-    font-family: 'Roboto',Arial,sans-serif;
-    font-size: 15px;
-    line-height: 1.2rem;
-    margin-bottom: 10px;
     text-decoration: none;
-    margin-left: 10px;
-    
+    margin: 15px;
 }
 .text{
     color: #3f2916;
@@ -43,8 +28,13 @@ body{
 }
 .header {
     background-color: #3f2916;
+    height: 65px
 }
 
+.logo{
+    float:left;
+    margin: 5px 
+}
 .header a{
     color: #d6c0ab;
     font-family: 'Roboto',Arial,sans-serif;
@@ -57,6 +47,11 @@ body{
         
 }
 
+.header li {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
 .header a:hover{
     color:darkorange;
 }
@@ -103,39 +98,6 @@ body{
     text-decoration: none;
 }
 
-.item-menu{
-    color: #3f2916;
-    font-family: 'Roboto',Arial,sans-serif;
-    font-size: 0.833rem;
-    line-height: 1.2rem;
-    margin: 20px;
-    text-decoration: none;
-    background-color: white;
-}
-
-.item-menu h1{
-    text-align: center;
-    margin: 10px
-}
-
-.item-menu h3{
-    margin: 10px;
-}
-
-.table tr:nth-child(1){
-    height: 50px;
-}
-
-.table tr:nth-child(2){
-    height: 100px
-}
-
-.table{
-    border: 2px solid #3f2916;
-    width: 700px;
-    border-collapse: collapse;
-}
-
 .item-menu a img:hover{
     outline: 1px solid #3f2916
 }
@@ -146,6 +108,56 @@ body{
     text-align: center;
 }
 
+.container{
+    margin: 20px;
+    background-color: white;
+    height: 350px;
+    width: 1000px;
+    color: #3f2916;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 0.833rem;
+    line-height: 1.2rem;
+    text-decoration: none;
+    
+}
+.container h1{
+    text-align: center;
+    margin: 10px;
+}
+.item-menu{
+    float: left;
+    background-color: white;
+    margin: 10px;
+    padding: 10px
+}
+
+.product{
+    overflow: hidden;
+    padding: 10px;
+    
+    width: 440px
+}
+
+.product button{
+    text-decoration: none;
+    margin: 15px;
+    height: 40px;
+    color: white;
+    background-color: darkorange;
+    user-select: none;
+    border: 0;
+    font-weight: 1000;
+}
+
+.product button:hover{
+    background-color: white;
+    color: darkorange;
+    outline: 3px solid orange;
+} 
+
+.product h4{
+    margin: 10px;
+}
 
 
 .footer{
@@ -154,7 +166,9 @@ body{
     font-size: 0.833rem;
     line-height: 1.2rem;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 10px;
+    float: right;
+    clear: both;
 }
 
